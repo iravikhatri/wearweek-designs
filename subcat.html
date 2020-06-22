@@ -1,14 +1,252 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/main.css">
-    <title>Outfits</title>
+	<title>Home</title>
 </head>
 <body>
+	<header class="sticky top-0 z-40 bg-white">
+		<ul class="fixed top-0 z-50 bg-orange-200 h-screen w-64 hidden">
+			<li class="flex justify-between py-2 bg-orange-300">
+				<a class="block text-xl font-light px-5 py-2" href="#">WEARWEEK</a>
+				<button class="mr-3" type="button">
+					<img class="m-3" src="images/close.svg" height="15px" width="15px" alt="" />
+				</button>
+			</li>
+			<li class="block">
+				<a class="block hover:bg-orange-300 px-5 py-2" href="#">Trending</a>
+			</li>
+			<li class="block">
+				<a class="block hover:bg-orange-300 px-5 py-2" href="#">Outfits</a>
+			</li>
+			<li class="block">
+				<a class="block hover:bg-orange-300 px-5 py-2" href="#">Beauty</a>
+			</li>
+			<li class="block">
+			   <a class="block hover:bg-orange-300 px-5 py-2" href="#">Culture</a>
+			</li>
+			<li class="block">
+				<a class="block hover:bg-orange-300 px-5 py-2" href="#">Entertainment</a>
+			</li>
+			<li class="block">
+				<a class="block hover:bg-orange-300 px-5 py-3" href="#">The Latest</a>
+			</li>
+		</ul>
 
+		<nav class="container mx-auto">
+			<div class="flex justify-between items-center h-auto w-full py-2">
+				<div class="flex">
+					<button class="mr-5" type="button">
+						<img class="m-2" src="images/menu.svg" height="25px" width="25px" alt="" />
+					</button>
+					<a class="text-3xl font-light" href="#">WEARWEEK</a>
+				</div>
+
+				<a class="block px-8 p-2 text-sm bg-black text-white" href="#">Signin</a>
+			</div>
+		</nav>
+	</header>
+
+	<section class="bg-gray-100">
+		<div class="_container container mx-auto">
+			<div class="pt-6">
+				<h1 class="headline--list flex items-center"><span class="text-5xl">Outfits</span></h1>
+				<p class="text-xl">The latest travel trend for a spin. Look of the week: Rihanna takes the latest travel trend for a spin.</p>
+			</div>
+
+			<div class="grid grid-cols-3 mt-8 gap-10">
+				<article class="v-full-card-height w-full col-span-3 relative">
+					<div class="h-full w-full absolute">
+						<img class="h-full w-full object-cover" src="images/pic3.jpg" alt="" height="100%" width="100%" />
+					</div>
+					<div class="w-1/2 flex content-between flex-wrap absolute bottom-0 right-0 bg-white p-5 m-5">
+						<div class="h-auto w-full mb-1">
+							<div class="flex justify-between pb-3">
+								<p class="uppercase text-sm">gucci, armani</p>
+								<img class="" src="images/bookmark.svg" height="20px" width="20px" alt="" />
+							</div>
+							<p class="font-serif-pro text-xl leading-tight mb-2 _text_underline">The latest travel trend for a spin. Look of the week: Rihanna takes the latest travel trend for a spin.</p>
+						</div>
+						<div class="h-auto w-full">
+							<div class="flex justify-between text-sm">
+								<p>By John Doe</p>
+								<p>20 July, 2020</p>
+							</div>
+						</div>
+					</div>
+				</article>
+				<article class="v-full-card-height w-full relative">
+					<div class="h-full w-full absolute">
+						<img class="h-full w-full object-cover" src="images/full1.jpg" alt="" height="100%" width="100%" />
+					</div>
+					<div class="flex content-between flex-wrap absolute bottom-0 bg-white p-5 m-5">
+						<div class="h-auto w-full mb-1">
+							<div class="flex justify-between pb-3">
+								<p class="uppercase text-sm">gucci, armani</p>
+								<img class="" src="images/bookmark.svg" height="20px" width="20px" alt="" />
+							</div>
+							<p class="font-serif-pro text-xl leading-tight mb-2 _text_underline">The latest travel trend for a spin. Look of the week: Rihanna takes the latest travel trend for a spin.</p>
+						</div>
+						<div class="h-auto w-full">
+							<div class="flex justify-between text-sm">
+								<p>By John Doe</p>
+								<p>20 July, 2020</p>
+							</div>
+						</div>
+					</div>
+				</article>
+				<article class="v-full-card-height w-full relative">
+					<div class="h-full w-full absolute">
+						<img class="h-full w-full object-cover" src="images/full2.jpg" alt="" height="100%" width="100%" />
+					</div>
+					<div class="flex content-between flex-wrap absolute bottom-0 bg-white p-5 m-5">
+						<div class="h-auto w-full mb-1">
+							<div class="flex justify-between pb-3">
+								<p class="uppercase text-sm">gucci, armani</p>
+								<img class="" src="images/bookmark.svg" height="20px" width="20px" alt="" />
+							</div>
+							<p class="font-serif-pro text-xl leading-tight mb-2 _text_underline">The latest travel trend for a spin. Look of the week: Rihanna takes the latest travel trend for a spin.</p>
+						</div>
+						<div class="h-auto w-full">
+							<div class="flex justify-between text-sm">
+								<p>By John Doe</p>
+								<p>20 July, 2020</p>
+							</div>
+						</div>
+					</div>
+				</article>
+				<article class="v-full-card-height w-full relative">
+					<div class="h-full w-full absolute">
+						<img class="h-full w-full object-cover" src="images/full3.jpg" alt="" height="100%" width="100%" />
+					</div>
+					<div class="flex content-between flex-wrap absolute bottom-0 bg-white p-5 m-5">
+						<div class="h-auto w-full mb-1">
+							<div class="flex justify-between pb-3">
+								<p class="uppercase text-sm">gucci, armani</p>
+								<img class="" src="images/bookmark.svg" height="20px" width="20px" alt="" />
+							</div>
+							<p class="font-serif-pro text-xl leading-tight mb-2 _text_underline">The latest travel trend for a spin. Look of the week: Rihanna takes the latest travel trend for a spin.</p>
+						</div>
+						<div class="h-auto w-full">
+							<div class="flex justify-between text-sm">
+								<p>By John Doe</p>
+								<p>20 July, 2020</p>
+							</div>
+						</div>
+					</div>
+				</article>
+			</div>
+		</div>
+	</section>
+
+	<section class="bg-gray-100 py-5">
+		<div class="_container container mx-auto">
+			<div class="text-xl py-4">
+				<h1 class="">Latest</h1>
+			</div>
+			<div class="w-3/4">
+				<article class="grid grid-cols-11 bg-white px-5 py-5 border-b border-gray-200">
+					<div class="col-span-5 h-64 w-full">
+						<img class="h-64 w-full object-cover" src="images/pic1.jpg" alt="" height="100%" width="100%" />
+					</div>
+					<div class="col-span-6 h-64 flex content-between flex-wrap pl-5">
+						<div class="">
+							<div class="flex flex justify-between pb-3">
+								<p class="uppercase text-sm">gucci, armani</p>
+								<img class="" src="images/bookmark.svg" height="20px" width="20px" alt="" />
+							</div>
+							<p class="font-serif-pro text-xl leading-tight pr-5 mb-2 _text_underline">The latest travel trend for a spin. Look of the week: Rihanna takes the latest travel trend for a spin.</p>
+							<p class="text-md">By John Doe</p>
+						</div>
+						<p class="text-sm">20 July, 2020</p>
+					</div>
+				</article>
+				<article class="grid grid-cols-11 bg-white px-5 py-5 border-b border-gray-200">
+					<div class="col-span-5 h-64 w-full">
+						<img class="h-64 w-full object-cover" src="images/pic2.jpg" alt="" height="100%" width="100%" />
+					</div>
+					<div class="col-span-6 h-64 flex content-between flex-wrap pl-5">
+						<div class="">
+							<div class="flex flex justify-between pb-3">
+								<p class="uppercase text-sm">gucci, armani</p>
+								<img class="" src="images/bookmark.svg" height="20px" width="20px" alt="" />
+							</div>
+							<p class="font-serif-pro text-xl leading-tight pr-5 mb-2 _text_underline">The latest travel trend for a spin. Look of the week: Rihanna takes the latest travel trend for a spin.</p>
+							<p class="text-md">By John Doe</p>
+						</div>
+						<p class="text-sm">20 July, 2020</p>
+					</div>
+				</article>
+				<article class="grid grid-cols-11 bg-white px-5 py-5 border-b border-gray-200">
+					<div class="col-span-5 h-64 w-full">
+						<img class="h-64 w-full object-cover" src="images/pic3.jpg" alt="" height="100%" width="100%" />
+					</div>
+					<div class="col-span-6 h-64 flex content-between flex-wrap pl-5">
+						<div class="">
+							<div class="flex flex justify-between pb-3">
+								<p class="uppercase text-sm">gucci, armani</p>
+								<img class="" src="images/bookmark.svg" height="20px" width="20px" alt="" />
+							</div>
+							<p class="font-serif-pro text-xl leading-tight pr-5 mb-2 _text_underline">The latest travel trend for a spin. Look of the week: Rihanna takes the latest travel trend for a spin.</p>
+							<p class="text-md">By John Doe</p>
+						</div>
+						<p class="text-sm">20 July, 2020</p>
+					</div>
+				</article>
+				<article class="grid grid-cols-11 bg-white px-5 py-5 border-b border-gray-200">
+					<div class="col-span-5 h-64 w-full">
+						<img class="h-64 w-full object-cover" src="images/pic4.jpg" alt="" height="100%" width="100%" />
+					</div>
+					<div class="col-span-6 h-64 flex content-between flex-wrap pl-5">
+						<div class="">
+							<div class="flex flex justify-between pb-3">
+								<p class="uppercase text-sm">gucci, armani</p>
+								<img class="" src="images/bookmark.svg" height="20px" width="20px" alt="" />
+							</div>
+							<p class="font-serif-pro text-xl leading-tight pr-5 mb-2 _text_underline">The latest travel trend for a spin. Look of the week: Rihanna takes the latest travel trend for a spin.</p>
+							<p class="text-md">By John Doe</p>
+						</div>
+						<p class="text-sm">20 July, 2020</p>
+					</div>
+				</article>
+				<article class="grid grid-cols-11 bg-white px-5 py-5 border-b border-gray-200">
+					<div class="col-span-5 h-64 w-full">
+						<img class="h-64 w-full object-cover" src="images/pic5.jpg" alt="" height="100%" width="100%" />
+					</div>
+					<div class="col-span-6 h-64 flex content-between flex-wrap pl-5">
+						<div class="">
+							<div class="flex flex justify-between pb-3">
+								<p class="uppercase text-sm">gucci, armani</p>
+								<img class="" src="images/bookmark.svg" height="20px" width="20px" alt="" />
+							</div>
+							<p class="font-serif-pro text-xl leading-tight pr-5 mb-2 _text_underline">The latest travel trend for a spin. Look of the week: Rihanna takes the latest travel trend for a spin.</p>
+							<p class="text-md">By John Doe</p>
+						</div>
+						<p class="text-sm">20 July, 2020</p>
+					</div>
+				</article>
+				<article class="grid grid-cols-11 bg-white px-5 py-5 border-b border-gray-200">
+					<div class="col-span-5 h-64 w-full">
+						<img class="h-64 w-full object-cover" src="images/pic6.jpg" alt="" height="100%" width="100%" />
+					</div>
+					<div class="col-span-6 h-64 flex content-between flex-wrap pl-5">
+						<div class="">
+							<div class="flex flex justify-between pb-3">
+								<p class="uppercase text-sm">gucci, armani</p>
+								<img class="" src="images/bookmark.svg" height="20px" width="20px" alt="" />
+							</div>
+							<p class="font-serif-pro text-xl leading-tight pr-5 mb-2 _text_underline">The latest travel trend for a spin. Look of the week: Rihanna takes the latest travel trend for a spin.</p>
+							<p class="text-md">By John Doe</p>
+						</div>
+						<p class="text-sm">20 July, 2020</p>
+					</div>
+				</article>
+			</div>
+		</div>
+	</section>
 </body>
 </html>
