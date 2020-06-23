@@ -21,7 +21,14 @@
 
 article:hover ._text_underline {
 	text-decoration: underline;
-	-webkit-text-decoration-color: #fbd38d;
+	-webkit-text-decoration-color: #feebc8;
+	text-decoration-color: #feebc8;
+}
+
+._footer_underline {
+	color: #fff;
+	text-decoration: underline;
+	-webkit-text-decoration-color: #feebc8;
 	text-decoration-color: #feebc8;
 }
 
@@ -47,4 +54,8 @@ article:hover ._text_underline {
 
 .v-full-card-height{
 	height: 450px;
+}
+
+.h-full-card-height{
+	height: 400px;
 }
